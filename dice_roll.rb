@@ -6,3 +6,8 @@
 #   return rand(1..6)
 # end
 
+def roll ()
+  randNum = [1,2,3,4,5,6]
+  myNum = rand(1..6)
+  return randNum[myNum]
+end

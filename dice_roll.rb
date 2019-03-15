@@ -3,6 +3,5 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll ()
-  dice = rand(5)
-  return dice
+  return rand(5)
 end
